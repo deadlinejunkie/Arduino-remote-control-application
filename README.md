@@ -3,7 +3,7 @@
 #### Performs: Anastasiya Sukhotskaya, 653502
 #### Topic: Arduino remote control application
 
-## Development tools:
+#### Development tools:
 * Arduino IDE
 * C++
 * Android Studio
