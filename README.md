@@ -8,3 +8,22 @@
 * C++
 * Android Studio
 * Java SE
+
+#### Operating systems: Android, iOS
+#### The mobile application controls arduino-supplied vehicle remotely. It allows to choose speed and steer the vehicle towards the direction you like.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+# Приложение для удаленного управления Arduino
+#### Курсовая работы по предмету "Операционные системы и среды"
+#### Выполнено: Анастасия Сухоцкая, 653502
+#### Тема: Приложение для удаленного управления Arduino
+
+#### Программные средства:
+* Arduino IDE
+* C++
+* Android Studio
+* Java SE
+
+#### Операционные системы: Android, iOS
+#### Мобильное приложение удаленно управляет моделью, оснащенной платой Arduino. Оно позволяет задать модели желаемую скорость и направление движения.
