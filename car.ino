@@ -16,8 +16,8 @@ const byte SPEED_MAX = 255; // maximum motor speed
 byte SPEED_CURRENT = 0; // current momtos speed
 
 // turn direction
-const byte TURN_RIGHT   = 1;  // right turn
-const byte TURN_LEFT    = 3;  // left turn
+const byte ROTATE_RIGHT   = 1;  // right turn
+const byte ROTATE_LEFT    = 3;  // left turn
 
 /* pins for module coonection
  * 13, 2 are digital pins
@@ -44,5 +44,61 @@ void setup() {
   pinMode(PIN_ECHO, INPUT);
   // motorInit();
 }
-  
- // motorStop();
+
+void loop() {
+  if (Serial.available() > 0) {
+    btTimer1 = millis();
+    btCommand = Serial.read(); 
+   
+    switch (btCommand){
+    case 'btnUp':
+      motorUp(); // turn the motor on
+      break;
+    case 'btnStop':
+      motorStop(); // turn the motor off
+      break;
+    case 'btnClutch':
+      motorClutch(); // clutch the motor and transmission
+      break;
+    case 'btnLeft':
+      motorRotateLeft(); // turn left
+      break;
+    case 'btnRight':
+      motorRotateRight(); // turn right
+      break;
+    case 'btnSpeedOne':  
+      motorSpeedOne(); // choose speed one
+      break;
+    case 'btnSpeedTwo':
+      motorSpeedTwo(); // choose speed two
+      break;
+    case 'btnSpeedThree': // choose speed three
+      motorSpeedThree();
+      break;
+    case 'btnSpeedFour':
+      motorSpeedFour(); // choose speed four
+      break;
+    case 'btnSpeedFive': 
+      motorSpeedFive(); // choose speed five
+      break;
+    case 'btnSpeedDown': // choose lower speed
+      motorSpeedDown();
+      break;
+/*      case 'L':  // front lights ON
+        break;
+      case 'BLON':  // back lights ON
+        break;
+      case 'BLOFF':  // back lights OFF
+        break;
+ */
+    }
+  else{
+    btTimer0 = millis();  // get the current time (millis since execution started).
+    // check if it has been 500ms since we received last btCommand.
+    if ((btTimer0 - btTimer1) > 500)   {
+      // more tan 500ms have passed since last btCommand received, car is out of range.
+      // therefore stop the car
+      motorStop();
+    }
+  }
+}
