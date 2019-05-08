@@ -12,12 +12,20 @@ AF_DCMotor motorFront();  //  front motor
 AF_DCMotor motorRear();   //  rear motor
 
 const byte SPEED_MIN = 100; // minimal motor speed not to stop
+const byte SPEED_1 = 125;
+const byte SPEED_2 = 150;
+const byte SPEED_3 = 175;
+const byte SPEED_4 = 200;
+const byte SPEED_5 = 225;
 const byte SPEED_MAX = 255; // maximum motor speed
 byte SPEED_CURRENT = 0; // current momtos speed
 
+const char DIRECTION1 = FORWARD; 
+const char DIRECTION2 = BACKWARD; 
+
 // turn direction
-const byte ROTATE_RIGHT   = 1;  // right turn
-const byte ROTATE_LEFT    = 3;  // left turn
+const byte RIGHT   = 1;  // right turn
+const byte LEFT    = 3;  // left turn
 
 /* pins for module coonection
  * 13, 2 are digital pins
@@ -42,7 +50,7 @@ void setup() {
   Serial.begin(9600);
   pinMode(PIN_TRIG, OUTPUT);
   pinMode(PIN_ECHO, INPUT);
-  // motorInit();
+  motorUp();
 }
 
 void loop() {
@@ -67,30 +75,20 @@ void loop() {
       motorRotateRight(); // turn right
       break;
     case 'btnSpeedOne':  
-      motorSpeedOne(); // choose speed one
+      motorSpeedOne(); // choose speed one (forward)
       break;
     case 'btnSpeedTwo':
-      motorSpeedTwo(); // choose speed two
+      motorSpeedTwo(); // choose speed two (forward)
       break;
-    case 'btnSpeedThree': // choose speed three
+    case 'btnSpeedThree': // choose speed three (forward)
       motorSpeedThree();
       break;
     case 'btnSpeedFour':
-      motorSpeedFour(); // choose speed four
+      motorSpeedFour(); // choose speed four (forward)
       break;
     case 'btnSpeedFive': 
-      motorSpeedFive(); // choose speed five
+      motorSpeedFive(); // choose speed five (forward)
       break;
-    case 'btnSpeedDown': // choose lower speed
-      motorSpeedDown();
-      break;
-/*      case 'L':  // front lights ON
-        break;
-      case 'BLON':  // back lights ON
-        break;
-      case 'BLOFF':  // back lights OFF
-        break;
- */
     }
   else{
     btTimer0 = millis();  // get the current time (millis since execution started).
@@ -101,4 +99,75 @@ void loop() {
       motorStop();
     }
   }
+}
+ 
+/******************************************
+  Functions
+******************************************/
+
+// motor initialization
+void motorUp()  {
+  // turn on motor
+  motorSetSpeed(SPEED_MIN); // set SPEED_MIN = 100 value to motor
+  // motorStop();
+}
+ 
+ void motorStop()  {
+  // turn off the motor
+  motorSetSpeed(0); 
+}
+ 
+boolean motorClutch(){
+ //clutch the motor and transmission
+  return true;
+}
+ 
+void motorRotateLeft(){
+ // turn left
+  motorFront.run(LEFT);
+  motorRear.run(LEFT);
+}
+ 
+void motorRotateRight(){
+ // turn right
+  motorFront.run(RIGHT);
+  motorRear.run(RIGHT);
+}
+
+// all the functions below set speed and direction
+ 
+void motorSetSpeed(int speed)  {
+  motorFront.setSpeed(speed);
+  motorRear.setSpeed(speed);
+  SPEED_CURRENT = speed;
+}
+ 
+void motorSetDirection(char direction){
+  motorFront.setDirection(direction);
+  motorRear.setDirection(direction);
+}
+ 
+void motorSpeedOne(int speed, char direction){
+ motorSetSpeed(SPEED_1);
+ motorSetDirection(direction);
+}
+ 
+ void motorSpeedTwo(int speed, char direction){
+ motorSetSpeed(SPEED_2);
+ motorSetDirection(direction);
+}
+ 
+void motorSpeedThree(int speed, char direction){
+ motorSetSpeed(SPEED_3);
+ motorSetDirection(direction);
+}
+ 
+void motorSpeedFour(int speed, char direction){
+ motorSetSpeed(SPEED_4);
+ motorSetDirection(direction);
+}
+ 
+void motorSpeedFive(int speed, char direction){
+ motorSetSpeed(SPEED_5);
+ motorSetDirection(direction);
 }
