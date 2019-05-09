@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnUp" type="id" />
+    <item name="btnStop" type="id" />
+    <item name="btnClutch" type="id" />
+    <item name="btnLeft" type="id" />
+    <item name="btnRight" type="id" />
+    <item name="btnSpeedOne" type="id" />
+    <item name="btnSpeedTwo" type="id" />
+    <item name="btnSpeedThree" type="id" />
+    <item name="btnSpeedFour" type="id" />
+    <item name="btnSpeedFive" type="id" />
+    <item name="btnSpeedDown" type="id" />
+</resources>

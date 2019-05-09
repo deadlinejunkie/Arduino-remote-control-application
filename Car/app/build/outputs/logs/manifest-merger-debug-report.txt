@@ -1,0 +1,154 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f2ba037b5d5653f8c7272afa763e341/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/c424ed093dae0d16e9fce3787090c847/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/bc0f8cfa31f555ba56bba13f8b82605b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/67021975688c027b921227d80d52de3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/0ab928a8cfd87dab6c691d4d6d000252/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/dd70ab079bebadf29b605ca6c1899772/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/258e8abe73fb719aac64e83d12cf3f09/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/01f6a32fc1f612342ec31b766643e5b4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/56bc501948a9138e837047da42839b55/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/75e5238b255b3b661131bf8622f49113/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6fae48d39aac9645b0c02f4afdfd3ba8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b22fe5f3ed7f4f50bff9cb70b49e4e91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/df4344d3f635bdfa7ba8185018a25684/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/2e7343161f5dd0e49f48caf1438341ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/f49b3140290ee7f4cde67de4e8e8d72b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/28b5a6457f56413cd0dc7b1a3e034681/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/130ed2e42dca0e3ec95a34fbff92ffe9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/9c8f278ec50221dd0745c841b822d22c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/cd5df80e1579882f79b0f1168323f318/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/45e18282908cae0e2f6f4f0f11f23f00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b0dd2c5982359a6dedeaf0167d948ae5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/ddeccef74c1e8a9abdf7ff8a03f086da/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/a958e6d12f7cce4d8d766e9507fda184/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f8e71e1c302249904142a94c83fac47/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6490a8f8a0757c7203eadb73d5907c54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/11d57b40574528e26d963645586925cd/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/c424ed093dae0d16e9fce3787090c847/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/c424ed093dae0d16e9fce3787090c847/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/28b5a6457f56413cd0dc7b1a3e034681/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/28b5a6457f56413cd0dc7b1a3e034681/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.car.MainActivity
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f2ba037b5d5653f8c7272afa763e341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f2ba037b5d5653f8c7272afa763e341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/c424ed093dae0d16e9fce3787090c847/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/c424ed093dae0d16e9fce3787090c847/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/bc0f8cfa31f555ba56bba13f8b82605b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/bc0f8cfa31f555ba56bba13f8b82605b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/67021975688c027b921227d80d52de3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/67021975688c027b921227d80d52de3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/0ab928a8cfd87dab6c691d4d6d000252/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/0ab928a8cfd87dab6c691d4d6d000252/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/dd70ab079bebadf29b605ca6c1899772/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/dd70ab079bebadf29b605ca6c1899772/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/258e8abe73fb719aac64e83d12cf3f09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/258e8abe73fb719aac64e83d12cf3f09/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/01f6a32fc1f612342ec31b766643e5b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/01f6a32fc1f612342ec31b766643e5b4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/56bc501948a9138e837047da42839b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/56bc501948a9138e837047da42839b55/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/75e5238b255b3b661131bf8622f49113/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/75e5238b255b3b661131bf8622f49113/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6fae48d39aac9645b0c02f4afdfd3ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6fae48d39aac9645b0c02f4afdfd3ba8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b22fe5f3ed7f4f50bff9cb70b49e4e91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b22fe5f3ed7f4f50bff9cb70b49e4e91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/df4344d3f635bdfa7ba8185018a25684/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/df4344d3f635bdfa7ba8185018a25684/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/2e7343161f5dd0e49f48caf1438341ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/2e7343161f5dd0e49f48caf1438341ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/f49b3140290ee7f4cde67de4e8e8d72b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/f49b3140290ee7f4cde67de4e8e8d72b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/1c27d90c78b8ad7dddcac1d950684e39/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/28b5a6457f56413cd0dc7b1a3e034681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/28b5a6457f56413cd0dc7b1a3e034681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/130ed2e42dca0e3ec95a34fbff92ffe9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/130ed2e42dca0e3ec95a34fbff92ffe9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/9c8f278ec50221dd0745c841b822d22c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/9c8f278ec50221dd0745c841b822d22c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/cd5df80e1579882f79b0f1168323f318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/cd5df80e1579882f79b0f1168323f318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/45e18282908cae0e2f6f4f0f11f23f00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/45e18282908cae0e2f6f4f0f11f23f00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b0dd2c5982359a6dedeaf0167d948ae5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/b0dd2c5982359a6dedeaf0167d948ae5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/ddeccef74c1e8a9abdf7ff8a03f086da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/ddeccef74c1e8a9abdf7ff8a03f086da/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/a958e6d12f7cce4d8d766e9507fda184/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/a958e6d12f7cce4d8d766e9507fda184/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f8e71e1c302249904142a94c83fac47/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/8f8e71e1c302249904142a94c83fac47/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6490a8f8a0757c7203eadb73d5907c54/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/6490a8f8a0757c7203eadb73d5907c54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/11d57b40574528e26d963645586925cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/anastasiya/.gradle/caches/transforms-2/files-2.1/11d57b40574528e26d963645586925cd/AndroidManifest.xml:20:5-44
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		ADDED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
+		INJECTED from /home/anastasiya/Car/app/src/main/AndroidManifest.xml
