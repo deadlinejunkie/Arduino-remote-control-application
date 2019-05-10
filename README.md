@@ -29,4 +29,4 @@
 #### Мобильное приложение удаленно управляет моделью, оснащенной платой Arduino. Оно позволяет задать модели желаемую скорость и направление движения.
 
 
-[![Watch the video]](https://youtu.be/vzBYQWogRUs)
+[![Watch the video](https://img.youtube.com/vi/https://youtu.be/vzBYQWogRUs/default.jpg)](https://youtu.be/vzBYQWogRUs)
